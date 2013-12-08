@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <title>Jag gillar att gilla!</title>
+    <meta property="og:title" content="att gilla"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://jaggillarattgilla.se/"/>
+    <meta property="og:image" content="http://jaggillarattgilla.se/like.png"/>
+    <meta property="og:site_name" content="JagGillarAttGilla.se"/>
+    <meta property="og:description" content="Jag gillar att gilla!"/>
+	<meta property="fb:admins" content="671332446" />
+  </head>
+  <style>
+/**
+ * @author Han Lin Yap < http://zencodez.net/ >
+ * @copyright 2010 zencodez.net
+ * @license http://creativecommons.org/licenses/by-sa/3.0/
+ * @package like
+ * @version 1.0 - 2010-10-07
+ */
+
+  body {
+	background: url("like.png") no-repeat;
+	font-family: Arial, san-serif;
+  }
+  
+  a {
+	color: #000;
+  }
+  
+  a:visited {
+	color: #333;
+  }
+  
+  a:hover {
+	text-decoration: none;
+  }
+  
+  #wrapper {
+	border: 1px solid #ccc;
+	margin: 100px auto 10px auto;
+	padding: 2px 30px;
+	width: 450px;
+
+	background-color: rgba(200,200,200,0.4);
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+  }
+  
+  #credit {
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	font-size: 9px;
+  }
+  </style>
+<body>
+<div id="wrapper">
+<h1>Jag gillar att gilla!</h1>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fjaggillarattgilla.se&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+</div>
+<div id="credit">Skapad av <a href="http://zencodez.net">Han Lin Yap</a></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1944741-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
